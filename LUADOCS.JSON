@@ -841,5 +841,129 @@
     ],
     "Library": "bit32",
     "Tags": []
+  },
+  {
+    "type": "LibFunction",
+    "Name": "create",
+    "ReturnType": [ "thread" ],
+    "Arguments": [
+      {
+        "Type": "function",
+        "Name": "f",
+        "Default": null
+      }
+    ],
+    "Library": "coroutine",
+    "Tags": []
+  },
+  {
+    "type": "LibFunction",
+    "Name": "resume",
+    "ReturnType": [ "bool", "Variant" ],
+    "Arguments": [
+      {
+        "Type": "thread",
+        "Name": "co",
+        "Default": null
+      },
+      {
+        "Type": "Tuple",
+        "Name": "values",
+        "Default": null
+      }
+    ],
+    "Library": "coroutine",
+    "Tags": []
+  },
+  {
+    "type": "LibFunction",
+    "Name": "running",
+    "ReturnType": [ "thread" ],
+    "Arguments": [],
+    "Library": "coroutine",
+    "Tags": []
+  },
+  {
+    "type": "LibFunction",
+    "Name": "status",
+    "ReturnType": [ "string" ],
+    "Arguments": [
+      {
+        "Type": "thread",
+        "Name": "co",
+        "Default": null
+      }
+    ],
+    "Library": "coroutine",
+    "Tags": []
+  },
+  {
+    "type": "LibFunction",
+    "Name": "wrap",
+    "ReturnType": [ "thread" ],
+    "Arguments": [
+      {
+        "Type": "funtion",
+        "Name": "f",
+        "Default": null
+      }
+    ],
+    "Library": "coroutine",
+    "Tags": []
+  },
+  {
+    "type": "LibFunction",
+    "Name": "yield",
+    "ReturnType": [ "Tuple" ],
+    "Arguments": [
+      {
+        "Type": "Tuple",
+        "Name": "arg",
+        "Default": null
+      }
+    ],
+    "Library": "coroutine",
+    "Tags": []
+  },
+  {
+    "type": "LibFunction",
+    "Name": "traceback",
+    "ReturnType": [ "string" ],
+    "Arguments": [
+      {
+        "Type": "string",
+        "Name": "message",
+        "Default": null
+      },
+      {
+        "Type": "number",
+        "Name": "level",
+        "Default": "1"
+      }
+    ],
+    "Library": "debug",
+    "Tags": []
+  },
+  {
+    "type": "LibFunction",
+    "Name": "profilebegin",
+    "ReturnType": [ "void" ],
+    "Arguments": [
+      {
+        "Type": "string",
+        "Name": "label",
+        "Default": null
+      }
+    ],
+    "Library": "debug",
+    "Tags": []
+  },
+  {
+    "type": "LibFunction",
+    "Name": "profileend",
+    "ReturnType": [ "void" ],
+    "Arguments": [],
+    "Library": "debug",
+    "Tags": []
   }
 ]
