@@ -627,20 +627,219 @@
       {
         "Type": "function",
         "Name": "f",
-        "Default": ""
+        "Default": null
       },
       {
         "Type": "function",
         "Name": "err",
-        "Default": ""
+        "Default": null
       },
       {
         "Type": "tuple",
         "Name": "args",
-        "Default": ""
+        "Default": null
       }
     ],
     "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "LibFunction",
+    "Name": "arshift",
+    "ReturnType": [ "number" ],
+    "Arguments": [
+      {
+        "Type": "number",
+        "Name": "x",
+        "Default": null
+      },
+      {
+        "Type": "number",
+        "Name": "disp",
+        "Default": null
+      }
+    ],
+    "Library": "bit32",
+    "Tags": []
+  },
+  {
+    "type": "LibFunction",
+    "Name": "band",
+    "ReturnType": [ "number" ],
+    "Arguments": [
+      {
+        "Type": "Tuple",
+        "Name": "numbers",
+        "Default": null
+      }
+    ],
+    "Library": "bit32",
+    "Tags": []
+  },
+  {
+    "type": "LibFunction",
+    "Name": "bnot",
+    "ReturnType": [ "number" ],
+    "Arguments": [
+      {
+        "Type": "number",
+        "Name": "x",
+        "Default": null
+      }
+    ],
+    "Library": "bit32",
+    "Tags": []
+  },
+  {
+    "type": "LibFunction",
+    "Name": "btest",
+    "ReturnType": [ "bool" ],
+    "Arguments": [
+      {
+        "Type": "Tuple",
+        "Name": "numbers",
+        "Default": null
+      }
+    ],
+    "Library": "bit32",
+    "Tags": []
+  },
+  {
+    "type": "LibFunction",
+    "Name": "bxor",
+    "ReturnType": [ "number" ],
+    "Arguments": [
+      {
+        "Type": "Tuple",
+        "Name": "numbers",
+        "Default": null
+      }
+    ],
+    "Library": "bit32",
+    "Tags": []
+  },
+  {
+    "type": "LibFunction",
+    "Name": "extract",
+    "ReturnType": [ "number" ],
+    "Arguments": [
+      {
+        "Type": "number",
+        "Name": "n",
+        "Default": null
+      },
+      {
+        "Type": "number",
+        "Name": "field",
+        "Default": null
+      },
+      {
+        "Type": "number",
+        "Name": "width",
+        "Default": "1"
+      }
+    ],
+    "Library": "bit32",
+    "Tags": []
+  },
+  {
+    "type": "LibFunction",
+    "Name": "replace",
+    "ReturnType": [ "number" ],
+    "Arguments": [
+      {
+        "Type": "number",
+        "Name": "n",
+        "Default": null
+      },
+      {
+        "Type": "number",
+        "Name": "field",
+        "Default": null
+      },
+      {
+        "Type": "number",
+        "Name": "width",
+        "Default": "1"
+      }
+    ],
+    "Library": "bit32",
+    "Tags": []
+  },
+  {
+    "type": "LibFunction",
+    "Name": "Irotate",
+    "ReturnType": [ "number" ],
+    "Arguments": [
+      {
+        "Type": "number",
+        "Name": "x",
+        "Default": null
+      },
+      {
+        "Type": "number",
+        "Name": "disp",
+        "Default": null
+      }
+    ],
+    "Library": "bit32",
+    "Tags": []
+  },
+  {
+    "type": "LibFunction",
+    "Name": "Ishift",
+    "ReturnType": [ "number" ],
+    "Arguments": [
+      {
+        "Type": "number",
+        "Name": "x",
+        "Default": null
+      },
+      {
+        "Type": "number",
+        "Name": "disp",
+        "Default": null
+      }
+    ],
+    "Library": "bit32",
+    "Tags": []
+  },
+  {
+    "type": "LibFunction",
+    "Name": "rrotate",
+    "ReturnType": [ "number" ],
+    "Arguments": [
+      {
+        "Type": "number",
+        "Name": "x",
+        "Default": null
+      },
+      {
+        "Type": "number",
+        "Name": "disp",
+        "Default": null
+      }
+    ],
+    "Library": "bit32",
+    "Tags": []
+  },
+  {
+    "type": "LibFunction",
+    "Name": "rshift",
+    "ReturnType": [ "number" ],
+    "Arguments": [
+      {
+        "Type": "number",
+        "Name": "x",
+        "Default": null
+      },
+      {
+        "Type": "number",
+        "Name": "disp",
+        "Default": null
+      }
+    ],
+    "Library": "bit32",
     "Tags": []
   }
 ]
