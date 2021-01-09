@@ -1,9 +1,0 @@
-D:\Gebruikers\rikde\Documents\ROBLOX\RobloxAPIJSON\RobloxAPIJSON\RobloxAPIScanner\APIScanner\bin\Debug\netcoreapp3.1\APIScanner.deps.json
-D:\Gebruikers\rikde\Documents\ROBLOX\RobloxAPIJSON\RobloxAPIJSON\RobloxAPIScanner\APIScanner\bin\Debug\netcoreapp3.1\APIScanner.dll
-D:\Gebruikers\rikde\Documents\ROBLOX\RobloxAPIJSON\RobloxAPIJSON\RobloxAPIScanner\APIScanner\bin\Debug\netcoreapp3.1\APIScanner.pdb
-D:\Gebruikers\rikde\Documents\ROBLOX\RobloxAPIJSON\RobloxAPIJSON\RobloxAPIScanner\APIScanner\obj\Debug\netcoreapp3.1\APIScanner.csprojAssemblyReference.cache
-D:\Gebruikers\rikde\Documents\ROBLOX\RobloxAPIJSON\RobloxAPIJSON\RobloxAPIScanner\APIScanner\obj\Debug\netcoreapp3.1\APIScanner.AssemblyInfoInputs.cache
-D:\Gebruikers\rikde\Documents\ROBLOX\RobloxAPIJSON\RobloxAPIJSON\RobloxAPIScanner\APIScanner\obj\Debug\netcoreapp3.1\APIScanner.AssemblyInfo.cs
-D:\Gebruikers\rikde\Documents\ROBLOX\RobloxAPIJSON\RobloxAPIJSON\RobloxAPIScanner\APIScanner\obj\Debug\netcoreapp3.1\APIScanner.csproj.CoreCompileInputs.cache
-D:\Gebruikers\rikde\Documents\ROBLOX\RobloxAPIJSON\RobloxAPIJSON\RobloxAPIScanner\APIScanner\obj\Debug\netcoreapp3.1\APIScanner.dll
-D:\Gebruikers\rikde\Documents\ROBLOX\RobloxAPIJSON\RobloxAPIJSON\RobloxAPIScanner\APIScanner\obj\Debug\netcoreapp3.1\APIScanner.pdb

@@ -1,0 +1,646 @@
+[
+  {
+    "type": "Function",
+    "Name": "delay",
+    "ReturnType": "void",
+    "Arguments": [
+      {
+        "Type": "number",
+        "Name": "delayTime",
+        "Default": null
+      },
+      {
+        "Type": "function",
+        "Name": "callback",
+        "Default": null
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "DebuggerManager",
+    "ReturnType": "DebuggerManager",
+    "Arguments": [],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "elapsedTime",
+    "ReturnType": "number",
+    "Arguments": [],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "LoadLibrary",
+    "ReturnType": "RbxLibrary",
+    "Arguments": [
+      {
+        "Type": "string",
+        "Name": "libraryName",
+        "Default": null
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "PluginManager",
+    "ReturnType": "PluginManager",
+    "Arguments": [],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "printidentity",
+    "ReturnType": "void",
+    "Arguments": [
+      {
+        "Type": "string",
+        "Name": "prefix",
+        "Default": "Current identity is"
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "require",
+    "Returntype": "Variant",
+    "Arguments": [
+      {
+        "Type": "ModuleScript",
+        "Name": "module",
+        "Default": null
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "spawn",
+    "ReturnType": "void",
+    "Arguments": [
+      {
+        "Type": "function",
+        "Name": "callback",
+        "Default": null
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "stats",
+    "ReturnType": "Stats",
+    "Arguments": [],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "tick",
+    "ReturnType": "number",
+    "Arguments": [],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "time",
+    "ReturnType": "number",
+    "Arguments": [],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "typeof",
+    "ReturnType": "string",
+    "Arguments": [
+      {
+        "Type": "Variant",
+        "Name": "object",
+        "Default": null
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "UserSettings",
+    "ReturnType": "UserSettings",
+    "Arguments": [],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "version",
+    "ReturnType": "string",
+    "Arguments": [],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "wait",
+    "ReturnType": [ "number", "number" ],
+    "Arguments": [
+      {
+        "Type": "number",
+        "Name": "seconds",
+        "Default": "0.03"
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "warn",
+    "ReturnType": [ "void" ],
+    "Arguments": [
+      {
+        "Type": "Tuple",
+        "Name": "params",
+        "Default": null
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "Name": "game",
+    "ValueType": "Class:DataModel",
+    "type": "Property",
+    "Class": "Global",
+    "tags": []
+  },
+  {
+    "Name": "plugin",
+    "ValueType": "Class:Plugin",
+    "type": "Property",
+    "Class": "Global",
+    "tags": []
+  },
+  {
+    "Name": "shared",
+    "ValueType": "array",
+    "type": "Property",
+    "Class": "Global",
+    "tags": []
+  },
+  {
+    "Name": "workspace",
+    "ValueType": "Class:Workspace",
+    "type": "Property",
+    "Class": "Global",
+    "tags": []
+  },
+  {
+    "Name": "_G",
+    "ValueType": "array",
+    "type": "Property",
+    "Class": "Global",
+    "tags": []
+  },
+  {
+    "Name": "_VERSION",
+    "ValueType": "string",
+    "type": "Property",
+    "Class": "Global",
+    "tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "assert",
+    "ReturnType": [ "Variant" ],
+    "Arguments": [
+      {
+        "Type": "Variant",
+        "Name": "value",
+        "Default": null
+      },
+      {
+        "Type": "string",
+        "Name": "errorMessage",
+        "Default": "assertion failed!"
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "collectgarbage",
+    "ReturnType": [ "Variant" ],
+    "Arguments": [
+      {
+        "Type": "string",
+        "Name": "operation",
+        "Default": null
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "error",
+    "ReturnType": [ "void" ],
+    "Arguments": [
+      {
+        "Type": "string",
+        "Name": "message",
+        "Default": null
+      },
+      {
+        "Type": "int",
+        "Name": "level",
+        "Default": "1"
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "getfenc",
+    "ReturnType": [ "table" ],
+    "Arguments": [
+      {
+        "Type": "Variant",
+        "Name": "stack",
+        "Default": "1"
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "getmetatable",
+    "ReturnType": [ "Variant" ],
+    "Arguments": [
+      {
+        "Type": "Variant",
+        "Name": "t",
+        "Default": null
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "ipairs",
+    "ReturnType": [ "function", "array", "int" ],
+    "Arguments": [
+      {
+        "Type": "array",
+        "Name": "t",
+        "Default": null
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "loadstring",
+    "ReturnType": [ "Variant" ],
+    "Arguments": [
+      {
+        "Type": "string",
+        "Name": "contents",
+        "Default": null
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "newproxy",
+    "ReturnType": [ "table" ],
+    "Arguments": [
+      {
+        "Type": "bool",
+        "Name": "addMetatable",
+        "Default": "false"
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "next",
+    "ReturnType": [ "Variant", "Variant" ],
+    "Arguments": [
+      {
+        "Type": "table",
+        "Name": "t",
+        "Default": null
+      },
+      {
+        "Type": "Variant",
+        "Name": "lastKey",
+        "Default": "nil"
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "pairs",
+    "ReturnType": [ "function", "table" ],
+    "Arguments": [
+      {
+        "Type": "table",
+        "Name": "t",
+        "Default": null
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "pcall",
+    "ReturnType": [ "bool", "Variant" ],
+    "Arguments": [
+      {
+        "Type": "function",
+        "Name": "func",
+        "Default": null
+      },
+      {
+        "Type": "Tuple",
+        "Name": "args",
+        "Default": ""
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "print",
+    "ReturnType": [ "void" ],
+    "Arguments": [
+      {
+        "Type": "Tuple",
+        "Name": "params",
+        "Default": null
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "rawequal",
+    "ReturnType": [ "bool" ],
+    "Arguments": [
+      {
+        "Type": "Variant",
+        "Name": "v1",
+        "Default": null
+      },
+      {
+        "Type": "Variant",
+        "Name": "v2",
+        "Default": null
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "rawget",
+    "ReturnType": [ "Variant" ],
+    "Arguments": [
+      {
+        "Type": "table",
+        "Name": "t",
+        "Default": null
+      },
+      {
+        "Type": "Variant",
+        "Name": "index",
+        "Default": null
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "rawset",
+    "ReturnType": [ "table" ],
+    "Arguments": [
+      {
+        "Type": "table",
+        "Name": "t",
+        "Default": null
+      },
+      {
+        "Type": "Variant",
+        "Name": "index",
+        "Default": null
+      },
+      {
+        "Type": "Variant",
+        "Name": "value",
+        "Default": null
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "select",
+    "ReturnType": [ "Tuple" ],
+    "Arguments": [
+      {
+        "Type": "int",
+        "Name": "index",
+        "Default": null
+      },
+      {
+        "Type": "Tuple",
+        "Name": "args",
+        "Default": null
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "select",
+    "ReturnType": [ "int" ],
+    "Arguments": [
+      {
+        "Type": "string",
+        "Name": "cmd",
+        "Default": null
+      },
+      {
+        "Type": "Tuple",
+        "Name": "args",
+        "Default": null
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "setfenv",
+    "ReturnType": [ "Variant" ],
+    "Arguments": [
+      {
+        "Type": "Variant",
+        "Name": "f",
+        "Default": null
+      },
+      {
+        "Type": "table",
+        "Name": "fenv",
+        "Default": null
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "setmetatable",
+    "ReturnType": [ "table" ],
+    "Arguments": [
+      {
+        "Type": "table",
+        "Name": "t",
+        "Default": null
+      },
+      {
+        "Type": "Variant",
+        "Name": "newMeta",
+        "Default": null
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "tonumber",
+    "ReturnType": [ "Variant" ],
+    "Arguments": [
+      {
+        "Type": "Variant",
+        "Name": "arg",
+        "Default": null
+      },
+      {
+        "Type": "int",
+        "Name": "base",
+        "Default": "10"
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "tostring",
+    "ReturnType": [ "string" ],
+    "Arguments": [
+      {
+        "Type": "Variant",
+        "Name": "e",
+        "Default": null
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "type",
+    "ReturnType": [ "string" ],
+    "Arguments": [
+      {
+        "Type": "Variant",
+        "Name": "v",
+        "Default": null
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "unpack",
+    "ReturnType": [ "Variant" ],
+    "Arguments": [
+      {
+        "Type": "table",
+        "Name": "list",
+        "Default": null
+      },
+      {
+        "Type": "int",
+        "Name": "i",
+        "Default": "1"
+      },
+      {
+        "Type": "int",
+        "Name": "j",
+        "Default": "#list"
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  },
+  {
+    "type": "Function",
+    "Name": "xpcall",
+    "ReturnType": [ "bool", "Variant" ],
+    "Arguments": [
+      {
+        "Type": "function",
+        "Name": "f",
+        "Default": ""
+      },
+      {
+        "Type": "function",
+        "Name": "err",
+        "Default": ""
+      },
+      {
+        "Type": "tuple",
+        "Name": "args",
+        "Default": ""
+      }
+    ],
+    "Class": "Global",
+    "Tags": []
+  }
+]
